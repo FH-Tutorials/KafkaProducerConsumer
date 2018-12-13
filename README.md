@@ -17,12 +17,14 @@ Before executing you need to add kafka and zookeeper to your OS hosts-file. Here
 * **Linux:** /etc/hosts
 * **Windows:** C:\\Windows\\System32\\drivers\\etc\\hosts
 
-The format may vary a little but usually a new host with its hostname is defined using it's **ip** and the desired **hostname**. Thus your host file needs to have the following entries:
+The format may vary a little but usually a new host with its hostname is defined using it's **ip** and the desired **hostname**. Thus, your host file needs to have the following entries:
 
 ```
 127.0.0.1  kafka
 127.0.0.1  zookeeper
 ```
+
+Be aware that for some Operating Systems you might need to restart your network service or restart your computer.
 
 ## Use the Applications
 
