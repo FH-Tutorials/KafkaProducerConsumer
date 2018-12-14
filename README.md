@@ -24,7 +24,7 @@ The format may vary a little but usually a new host with its hostname is defined
 127.0.0.1  zookeeper
 ```
 
-Be aware that for some Operating Systems you might need to restart your network service or restart your computer.
+Be aware that for some Operating Systems you might need to restart your network service or restart your computer. You may check if the entries are active by just pining with `ping kafka` and `ping zookeeper`, which should give you a response from 127.0.0.1.
 
 ## Use the Applications
 
